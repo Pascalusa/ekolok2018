@@ -1,0 +1,89 @@
+/*!
+Theme Name: Ekolok
+Theme URI: http://underscores.me/
+Author: Empire-communication
+Author URI: http://Empire-communication.tk
+Description: Website location
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ekolok
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Ekolok is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+iframe {
+	position: relative;
+	bottom: 49px;
+	height: 100vh;
+}
+
+section {
+	height: 100vh; 
+	background-color: #e8501f;
+}
+
+.copyright{
+	 position: fixed;
+    width: 100%;
+    bottom: 8px;
+}
+
+
+#text-copyright{
+	text-align: center;
+	color: #ffffff;	
+}
+
+.show-location{
+	background-color: #fff;
+    height: 100vh;
+    width: 600px;
+    position: fixed;
+    top: 0;	
+    overflow: auto;
+}
+
+.globale-location {
+    background-color: red;
+    right: 0;
+    position: absolute;
+    width: 600px;
+}
+
+.input-field {
+	margin-top: 70px; margin-bottom: 60px;
+}

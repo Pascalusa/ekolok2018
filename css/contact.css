@@ -1,0 +1,48 @@
+  .input-field .prefix{
+    color: white;
+  }
+
+  .globale-contact{ background-color: #e9502036;
+    height: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+   .other-contact{ font-size: 15px;width: 240px; margin-left: auto; margin-right: auto; margin-bottom: 19px; color: #fff; font-family: 'Josefin Sans', sans-serif;}
+
+  input[type=text]:not(.browser-default).validate+label, .input-field .prefix ~ label, input[type=email]:not(.browser-default).validate+label {color: white; font-family: 'Josefin Sans', sans-serif; }
+
+input[type=email]:not(.browser-default), textarea.materialize-textarea, input[type=text]:not(.browser-default){
+border-bottom: 2px solid #ffffff;
+}
+
+.tittle-contact{
+color: #fff; margin-top: 95px; transform: translate(-50%)!important; left: 50%!important; position: absolute!important; font-family: 'Muli', sans-serif;
+}
+
+
+@media screen and (max-width: 995px) {
+  .globale-form {
+    width: 100%!important;
+}
+@media screen and (max-width: 1015px) {
+  .globale-contact {
+    width: 100%!important;
+}
+}
+@media screen and (max-width: 487px) {
+  .tittle-contact {
+    width: 100%!important;
+    height: 45px;
+    text-align: center;
+        margin-top: 2px!important;
+}
+}
+@media screen and (max-width: 992px) {
+  .other-contact {
+    width: 220px!important;;
+}
+}
+  
